@@ -51,8 +51,11 @@
 // --------------------------------------------------
 
 // Util
-native print(const string[]);
-native printf(const format[], {Float,_}:...);
+#if !defined _console_included
+	#define _console_included
+	native print(const string[]);
+	native printf(const format[], {Float,_}:...);
+#endif
 native format(output[], len, const format[], {Float,_}:...);
 native SendClientMessage(playerid, color, const message[]);
 native SendClientMessageToAll(color, const message[]);
