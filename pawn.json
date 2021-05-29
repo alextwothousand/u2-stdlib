@@ -1,0 +1,13 @@
+{
+	"user": "alextwothousand",
+	"repo": "u2-stdlib",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/pawn-stdlib"
+	],
+	"include_path": "includes",
+	"contributors": [
+		"alextwothousand"
+	]
+}
