@@ -37,7 +37,7 @@ sampctl package install alextwothousand/u2-stdlib
 Include in your code and begin using the library:
 
 ```pawn
-#include <u2-stdlib>
+#include <a_u2>
 ```
 
 ## Usage
@@ -48,6 +48,8 @@ the source code, direct users there. If not, list your API and describe it well
 in this section. If your library is passive and has no API, simply omit this
 section.
 -->
+
+Direct 1-for-1 replacement to the a_samp library.
 
 ## Testing
 
